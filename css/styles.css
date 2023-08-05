@@ -1,8 +1,16 @@
 body {
-    background-color: black;
+    background-image: url(/Images/background.jpg);
     font-family: sans-serif;
-    color: cyan;
+    color: #FAFAFF;
     text-align: center;
+}
+
+
+img {
+    width: 1000px;
+    border-color: #FAFAFF;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 button {
@@ -10,9 +18,26 @@ button {
 }
 
 h1 {
+    color: #E4D9FF;
     font-size: 60px;
 }
 
 h2 {
     font-size: 20px;
 }
+
+button {
+    background-color: #E4D9FF;
+    color: #1E2749;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+    box-shadow:  0 0 20px 1px black;
+}
+
+form {
+    border: 2px;
+    border-style: solid;
+}
+
