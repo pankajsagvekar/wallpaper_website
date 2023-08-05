@@ -1,13 +1,30 @@
 body {
     background-image: url(../Images/background.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: sans-serif;
     color: #FAFAFF;
     text-align: center;
 }
 
+.navbar {
+    display: block;
+    padding: 10px 20px;
+    background-color:#2C2C34;
+    
+}
+
+.navbutton {
+    border: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #E4D9FF;
+    color: #1E2749;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
 
 img {
     width: 900px;
@@ -15,10 +32,6 @@ img {
     border-color: #FAFAFF;
     border-style: solid;
     border-radius: 10px;
-}
-
-button {
-    font-size: 30px;
 }
 
 h1 {
@@ -30,7 +43,8 @@ h2 {
     font-size: 20px;
 }
 
-button {
+.downloadb {
+    font-size: 30px;
     background-color: #E4D9FF;
     color: #1E2749;
     border: none;
