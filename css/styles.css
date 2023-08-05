@@ -7,7 +7,8 @@ body {
 
 
 img {
-    width: 1000px;
+    width: 900px;
+    height: 600px;
     border-color: #FAFAFF;
     border-style: solid;
     border-radius: 10px;
