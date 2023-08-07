@@ -1,3 +1,3 @@
-#This Is A Wallpaper Website
+# This Is A Wallpaper Website
 
-It is an ongoing project
+## It is an ongoing project
