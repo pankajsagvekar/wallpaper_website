@@ -1,6 +1,7 @@
 body {
     background-image: url(../Images/background.jpg);
-    font-family: sans-serif;
+background-repeat: no-repeat;
+  background-attachment: fixed;    font-family: sans-serif;
     color: #FAFAFF;
     text-align: center;
 }
