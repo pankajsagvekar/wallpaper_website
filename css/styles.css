@@ -9,20 +9,25 @@ body {
 }
 
 .navbar {
-    display: block;
-    padding: 10px 20px;
-    background-color:#2C2C34;
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #E4D9FF;
+    border-radius: 10px;
+    height: 40px;
 }
 
-.navbutton {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #E4D9FF;
-    color: #1E2749;
+.navbar li {
+    display: inline-flex;
     padding: 10px;
-    border: none;
+    background-color: #1E2749;
     border-radius: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FAFAFF;
+    font-size: 20px;
 }
 
 img {
@@ -35,11 +40,11 @@ img {
 
 h1 {
     color: #E4D9FF;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .downloadb {
@@ -52,9 +57,3 @@ h2 {
 
     box-shadow:  0 0 20px 1px black;
 }
-
-form {
-    border: 2px;
-    border-style: solid;
-}
-
