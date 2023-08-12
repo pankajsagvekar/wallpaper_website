@@ -13,10 +13,10 @@ body {
     padding: 0;
     background-color: #1E2749;
     border-radius: 10px;
+    display: inline-flex;
 }
 
 .navbar a {
-    display: inline-flex;
     padding: 20px;
     text-decoration: none;
     color: #FAFAFF;
